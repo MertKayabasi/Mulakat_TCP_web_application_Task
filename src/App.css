@@ -1,0 +1,112 @@
+/* Genel Yapı */
+.app-container {
+  min-height: 100vh;
+  background-color: #121212;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+/* Kart kutuları */
+.card {
+  background: #1e1e1e;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+/* Textarea */
+.input-area {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  background: #222;
+  border: 1px solid #444;
+  color: white;
+  resize: vertical;
+}
+
+/* Buttonlar */
+.btn {
+  margin-top: 0.7rem;
+  padding: 0.6rem 1.3rem;
+  background: #0066ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0052cc;
+}
+
+.stop-btn {
+  background: #d72638;
+}
+
+.stop-btn:hover {
+  background: #b81f2f;
+}
+
+.small {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+}
+
+/* Status mesajı */
+.status {
+  margin-top: 0.5rem;
+  color: #0f0;
+}
+
+/* Tablo */
+.msg-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.msg-table th,
+.msg-table td {
+  border-bottom: 1px solid #333;
+  padding: 0.6rem;
+}
+
+.msg-table th {
+  background: #2a2a2a;
+}
+
+.msg-table tr:hover {
+  background: #222;
+}
+.upload-btn {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.upload-btn:hover {
+  background-color: #45a049;
+}
+
+.popup-content {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
